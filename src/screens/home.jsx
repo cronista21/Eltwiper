@@ -84,7 +84,7 @@ export default function HomeScreen({navigation}){
     )
     else return (
         <View>
-            <Text style={{textAlign:'center'}}>Twittelopes</Text>
+            <Text style={{textAlign:'center'}}>Eltwip</Text>
             <Button onPress={pickImage}>Selecione uma imagem!</Button>
             {file !== null ? (
                 <Image source={{ uri: file.uri }} style={{width:200, height: 200}}/>
